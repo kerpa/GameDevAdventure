@@ -1,5 +1,4 @@
-player_fear = 0
-player_inventory = ["flashlight", "knife"]
+player_inventory = []
 
 
 def going_to_light():
@@ -21,6 +20,3 @@ def going_to_light():
         player_fear += 1
     print("The closer you get to the glow, the more you see the shapes of a house appear.")
     print("you arrive in front of the landing of the door\n")
-
-
-going_to_light()

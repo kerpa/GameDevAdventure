@@ -1,6 +1,3 @@
-player_inventory = []
-
-
 # starting scene
 
 def starting_scene():
