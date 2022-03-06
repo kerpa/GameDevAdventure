@@ -34,6 +34,3 @@ def wait():
 def phase_three():
     main_door()
     wait()
-
-
-phase_three()

@@ -10,7 +10,7 @@ def starting_scene():
 
 def choice_car():
     car_choice_input = input("Do you want to look under the car? (type: A) \n"
-                             "Or do you want to look at the trunk? (type: B) \n")
+                             "Or do you want to look at the trunk? (type: B) \n >")
     if car_choice_input == "B":
         print("You see a flashlight and a knife. \n")
         player_inventory.append("flashlight")
