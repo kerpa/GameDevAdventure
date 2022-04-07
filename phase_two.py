@@ -1,11 +1,11 @@
 player_inventory = []
-
+player_fear = 0
 
 def going_to_light():
     global player_fear
     print("\n")
     print("You look away at the hill, and you see a faint glow.")
-    choice = input("Do you want to approach the glow ? (Yes/No)")
+    choice = input("Do you want to approach the glow ? (Yes/No) \n >")
     if choice == "No":
         print("You stay in the car \n")
         print("After a few hours in your car, the cold begins to be felt")
